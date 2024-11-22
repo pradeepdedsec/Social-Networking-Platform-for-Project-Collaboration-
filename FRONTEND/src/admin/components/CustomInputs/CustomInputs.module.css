@@ -1,0 +1,62 @@
+/* Input field ---> text,file,tel */
+.InputContainer,
+.RadioContainer {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  text-transform: capitalize;
+  padding: var(--Global-padding);
+}
+
+.Label {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.Inputfield {
+  padding: 10px;
+  border: none;
+  background: var(--base-color);
+  outline: none;
+  border-radius: 8px;
+  min-width: 250px;
+}
+
+/* Radio */
+.Radiocontent {
+  display: flex;
+  gap: 20px;
+}
+
+/* Common Button */
+.Button {
+  background: var(--primarycolor);
+  padding: 0.5rem 0.9rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Chip tag */
+.chipcontainer {
+  background: var(--primarycolor);
+  width: fit-content;
+  display: flex;
+  padding: 0.3rem 0.5rem;
+  gap: 4px;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.removeicon {
+  background: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

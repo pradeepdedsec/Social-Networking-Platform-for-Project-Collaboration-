@@ -1,0 +1,62 @@
+.aouterhomebox{
+    position: relative;
+    top:20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:1200px;
+    height:500px;
+    margin-left: 200px;
+    border-radius: 10%;
+}
+
+.atotalhomebox{
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(222, 222, 222);
+    width: 50%;
+    height: 100%;
+}
+.ahomebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.aimgboxdiv{
+    background-color: rgb(252, 252, 252);
+    width:50%;
+    height: 100%;
+}
+
+.aimgboxdiv img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+   
+}
+
+.ahomeimage{
+    height: 100px;
+    width:100px;
+}
+
+.ahomebox{
+    min-height:150px;
+    min-width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 300px;
+}
+
+.ahomebox p{
+    line-height: 35px;
+}

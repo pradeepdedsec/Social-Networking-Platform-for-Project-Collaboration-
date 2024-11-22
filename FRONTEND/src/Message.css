@@ -1,0 +1,150 @@
+.totalchatbox{
+    display: flex;
+    height: 610px;
+    background-color: rgba(255, 255, 255, 0.841);
+    box-shadow: 1px 5px 8px 0px rgb(164, 163, 163);
+    width: 1200px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+.currentchatbox{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    
+}
+
+.currentchatbody{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    scrollbar-width:thin;
+    background-color: white;
+    height: 450px;
+    width: 930px;
+}
+
+.namelistsbox{
+    margin: 10px;
+    border-radius: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.815);
+    overflow: scroll;
+    scrollbar-width:thin;
+}
+#namesearch{
+   padding-left: 10px;
+   height: 35px;
+   width: 240px; 
+   margin: 5px;
+   border-radius: 20px;
+}
+
+
+.namelistsearchdiv{
+    margin: 5px;
+}
+
+.namebox{
+    display: flex;
+    background-color: rgba(223, 223, 223, 0.803);
+    padding: 15px;
+    width: 260px;
+    border-radius: 8px;
+    margin-top: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.namebox:hover{
+    color:aliceblue;
+    background-color: rgb(97, 129, 232);
+}
+.namebox p{
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+
+
+.chatheader{
+    height: 100px;
+    display: flex;
+    width: 935px;
+    background-color:rgb(97, 129, 232);
+    border-top-right-radius: 20px;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+
+.chatcontainer{
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.chatandtime{
+    padding: 15px;
+    background-color: rgba(223, 223, 223, 0.803);
+    width: 400px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.timestamp{
+    margin-top:5px;
+    margin-left: 313px;
+    font-size: 12px;
+}
+
+.currentfrndname{
+    margin: 40px 50px 35px 0px;
+}
+
+.chatheader img{
+    height: 60px;
+    width: 60px;
+    margin:20px 20px 0px 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.chatright{
+    float: right;
+}
+
+
+.msgsentbox{
+    height: 10px;
+    width: 930px;
+}
+
+.msgforsent{
+    width: 800px;
+    padding-left: 20px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 14pt;
+    border-radius: 30px;
+    border-style: none;
+    background-color: rgba(227, 227, 227, 0.841);
+}
+
+.msgsendbtn{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(97, 129, 232);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.namebox img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}

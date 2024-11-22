@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+}
+.nav{
+    height: 600px;
+    width: 90px;
+    background-color: rgb(83, 117, 226);
+    color: white;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    
+}
+
+.icon-logo{
+    color: rgb(255, 255, 255);
+    
+}
+
+.home{
+    margin-bottom:50px;
+}
+.msg{
+    margin-bottom:50px;
+}
+.feedback{
+    margin-bottom:50px;
+}
+.search{
+    margin-bottom:50px;
+}
+
+.updateprofile{
+    margin-bottom:50px;
+}
+
+.profile{
+    margin-bottom:50px;
+}

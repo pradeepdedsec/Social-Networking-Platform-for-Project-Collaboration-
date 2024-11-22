@@ -1,0 +1,25 @@
+.atitlebox h1{
+    color: rgb(83, 117, 226);
+    margin-left: 140px;
+    padding-top: 15px;
+    height: 80px;
+    font-size: 50px;
+}
+
+.alogoutbtn{
+    border-style: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(83, 117, 226);
+    margin-top: 25px;
+    margin-left: 700px;
+}
+
+.atitlebox{
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,65 @@
+
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: var(--Global-padding);
+}
+
+.Container h2 {
+  display: flex;
+  width: 60%;
+  justify-content: start;
+}
+
+.Content_container {
+  display: flex;
+  gap: 100px;
+}
+.InputWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ButtonAddClass {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.tagsContainer {
+  background: var(--base-color);
+  margin: var(--Global-padding);
+  padding: var(--Global-padding);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 300px;
+  overflow-y: auto;
+  height: auto;
+  border-radius: 10px;
+}
+
+.textareafield {
+  padding: 10px;
+  border: none;
+  background: var(--base-color);
+  outline: none;
+  border-radius: 8px;
+  min-width: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  .Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Content_container {
+    display: flex;
+    flex-direction: column;
+  }
+}

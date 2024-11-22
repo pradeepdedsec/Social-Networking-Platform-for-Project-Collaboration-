@@ -1,0 +1,50 @@
+.Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primarycolor);
+  font-family: var(--font-family);
+  padding: var(--Global-padding);
+  color: #fff;
+  width: 100%;
+}
+.LogoContainer {
+  width: 40%;
+}
+
+.LogoContainer{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.contentContainer {
+  width: 60%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.listItem {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease-in;
+}
+
+.listItem a{
+    font-size: 1.3rem;
+    color: #fff;
+}
+.Nav_Name{
+    font-size: .9rem;
+    text-transform: capitalize;
+    opacity: 0;
+}
+.listItem:hover > .Nav_Name{
+    transition: .3s ease-out;
+     opacity: 1;
+ }

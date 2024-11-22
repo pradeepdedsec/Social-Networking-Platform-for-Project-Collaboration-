@@ -1,0 +1,52 @@
+.loginbox{
+    height: 430px;
+    width: 650px;  
+    background-color: rgba(189, 189, 189, 0.441);
+    border-radius: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 1px 5px 8px 0px rgb(164, 163, 163);
+   
+}
+
+.log{
+    margin-top: 40px;
+    margin-left:65px ;
+    margin-right: 60px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.textbox{
+    margin-top: 25px;
+    width: 380px;
+    height: 45px;
+    font-family:'Segoe UI';
+    border-radius: 8px;
+    border:0px ;
+    padding-left: 20px;
+    box-shadow: 1px 5px 8px 0px rgb(164, 163, 163);
+}
+#loginbtn{
+    width: 250px;
+    height: 40px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: rgb(83, 117, 226);
+    color: white;
+    box-shadow: 0px 5px 8px 0px rgba(92, 92, 92, 0.64);
+
+}
+#forget{
+    margin-top: 8px;
+    margin-left:290px ;
+    font-size: 11px;
+    
+}
+
+#forget:hover{
+    cursor: pointer;
+}

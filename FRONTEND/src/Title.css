@@ -1,0 +1,8 @@
+.titlebox h1{
+    position: relative;
+    color: rgb(83, 117, 226);
+    margin-left: 140px;
+    padding-top: 10px;
+    height: 80px;
+    font-size: 50px;
+}

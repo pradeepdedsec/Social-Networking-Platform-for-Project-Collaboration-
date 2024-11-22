@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style:normal; 
+}
+
+:root {
+    --primarycolor:#5375E1;
+    --font-family:"Open Sans",sans-serif;
+    --Global-padding:.8rem;
+    --base-color:#E6E6E6
+
+  }
